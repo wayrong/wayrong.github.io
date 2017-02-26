@@ -2,13 +2,6 @@ body {
 	background-color: #dcdcdc;
 }
 
-footer {
-position: fixed;
-left: 0;
-bottom: 0;
-height: 10%;
-width: 100%;
-}
 
 #logo {
 	display: block;
@@ -36,4 +29,12 @@ width: 100%;
 	opacity: 0.9;
 	animation: flash 0.4s;
 	animation-duration: 5s
+}
+
+footer {
+position: fixed;
+left: 0;
+bottom: 0;
+height: 10%;
+width: 100%;
 }
