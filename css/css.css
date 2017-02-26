@@ -1,0 +1,14 @@
+body {
+	background-color: #dcdcdc;
+}
+
+#logo {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	transition: 0.7s;
+}
+
+#logo:hover {
+	opacity: 0.77;
+}
