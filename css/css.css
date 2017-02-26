@@ -8,9 +8,25 @@ body {
 	margin-right:auto;
 	margin-top:auto;
 	margin-bottom:auto;
-	transition: 0.7s;
+	transition: 0.7s ease-in-out;
+}
+
+@keyframes flash {
+	0% {
+		opacity: .9;
+	}
+
+	36% {
+		opacity: 0.7;
+	}
+
+	100% {
+		opacity: 0.95;
+	}
 }
 
 #logo:hover {
 	opacity: 0.77;
+	animation: flash 1.4s;
+	animation-duration: 5s
 }
