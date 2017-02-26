@@ -26,7 +26,6 @@ body {
 }
 
 #logo:hover {
-	opacity: 0.77;
 	animation: flash 1.4s;
 	animation-duration: 5s
 }
