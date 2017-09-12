@@ -8,6 +8,7 @@
 
 #frame {
     background-image: url(res/frame.png);
+    background-repeat; no-repeat;
     background-size: auto 100%;
     width:100%;
     height:100%;
@@ -20,3 +21,5 @@
 #frame:hover {
   background-image: url(res/frame_hover.png);
 }
+
+body {overflow: hidden
